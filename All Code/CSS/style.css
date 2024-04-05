@@ -3193,3 +3193,19 @@ button {
   transform: translate(-50%, 0);
   z-index: 193;
 }
+@media only screen and (max-width: 600px) {
+  .flex-row-a {
+       grid-template-rows: 1fr, 1fr;
+       grid-template-columns: 1fr;
+       grid-template-areas:
+       ".hero-img",
+       ".hero-img-84",
+       ".hero-img-85",
+       ".hero-img-86",
+       ".hero-img-87",
+       ".hero-img-88",
+       ".hero-img-89" 
+      ;
+    }
+  }
+  
